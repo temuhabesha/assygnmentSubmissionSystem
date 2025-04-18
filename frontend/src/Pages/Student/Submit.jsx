@@ -1,11 +1,12 @@
 import React from 'react'
+import Submitfrom from '../../Components/Student/Submit/Submit'
 
 const Submit = () => {
   return (
-    <div className='submit'>
-      <h1>this is assignment submit page</h1>
+    <div className="submit">
+      <Submitfrom />
     </div>
-  )
+  );
 }
 
 export default Submit
