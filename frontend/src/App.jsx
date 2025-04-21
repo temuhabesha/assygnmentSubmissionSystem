@@ -8,10 +8,14 @@ import Viewfeadback from './Pages/Student/Viewfeadback'
 import Admindash from './Pages/Admin/Admindash'
 import AdminView from './Pages/Admin/AdminView'
 import SendResult from './Pages/Admin/SendResult'
+import Header from './Components/Common/Header/Header'
+import Footer from './Components/Common/Footer/Footer'
 
 const App = () => {
   return (
     <div>
+      <Header/>
+      <hr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -22,6 +26,7 @@ const App = () => {
         <Route path="/admin/view" element={<AdminView />} />
         <Route path="/admin/send" element={<SendResult />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.upperfooter{
+    background-color: #2E2E2E;
+    height: 120px;
+}
+.footer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.privecy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

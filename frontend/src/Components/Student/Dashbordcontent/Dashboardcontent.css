@@ -1,0 +1,40 @@
+.studentdashboardcomponent{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.studentdashboardtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.studentdashboardresult{
+    width: 100%;
+}
+.studentdashboardresult table{
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+}
+.studentdashboardresult table, tr, td,th{
+    border: 1px solid orchid;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+.studentdashboardcomponent h2{
+   text-align: center;
+   margin-bottom: 20px;
+   text-decoration: underline;
+}
+.studentdashboardfeedback p{
+font-size: 18px;
+line-height: 1.5;
+}
+.studentdashboardfeedback{
+    margin-bottom: 30px;
+}
