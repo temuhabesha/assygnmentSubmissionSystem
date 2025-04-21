@@ -1,0 +1,18 @@
+.righttitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.selectiontag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.selectiontag select{
+    padding: 5px;
+    font-size: 18px;
+}
